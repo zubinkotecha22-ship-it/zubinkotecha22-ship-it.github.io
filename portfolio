@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zubin Kotecha | Data Analyst</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;}
+body {background:#0f172a;color:#e2e8f0;scroll-behavior:smooth;}
+section {padding:80px 10%;}
+
+header {
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+header h1 {font-size:48px;font-weight:700;}
+header h1 span {color:#38bdf8;}
+header p {margin:20px 0;font-size:18px;color:#94a3b8;}
+.btn {
+    display:inline-block;
+    padding:12px 25px;
+    margin:10px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+.primary {background:#38bdf8;color:#0f172a;}
+.primary:hover {transform:scale(1.05);}
+.secondary {border:1px solid #38bdf8;color:#38bdf8;}
+.secondary:hover {background:#38bdf8;color:#0f172a;}
+
+h2 {font-size:32px;margin-bottom:40px;text-align:center;color:#38bdf8;}
+
+.about, .metrics, .projects, .contact {background:#1e293b;border-radius:20px;padding:40px;margin-bottom:40px;}
+
+.skills span {
+    display:inline-block;
+    background:#334155;
+    padding:10px 18px;
+    border-radius:20px;
+    margin:8px;
+    font-size:14px;
+}
+
+.metrics-container {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    text-align:center;
+}
+.metric {
+    margin:20px;
+}
+.metric h3 {
+    font-size:36px;
+    color:#38bdf8;
+}
+.project-card {
+    background:#0f172a;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:25px;
+    transition:0.3s;
+}
+.project-card:hover {
+    transform:translateY(-8px);
+}
+footer {
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+}
+@media(max-width:768px){
+    header h1 {font-size:36px;}
+    section {padding:60px 5%;}
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Zubin <span>Kotecha</span></h1>
+    <p>Data Analyst | Python • SQL • Business Intelligence</p>
+    <div>
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="#" class="btn secondary">Download Resume</a>
+    </div>
+</header>
+
+<section>
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+            Engineering-driven Data Analyst skilled in Python, SQL, and advanced exploratory data analysis.
+            Passionate about transforming complex datasets into strategic insights that drive measurable
+            business impact and operational efficiency.
+        </p>
+    </div>
+
+    <div class="metrics">
+        <h2>Impact Metrics</h2>
+        <div class="metrics-container">
+            <div class="metric">
+                <h3>15+</h3>
+                <p>Data Projects</p>
+            </div>
+            <div class="metric">
+                <h3>95%</h3>
+                <p>Data Accuracy</p>
+            </div>
+            <div class="metric">
+                <h3>30%</h3>
+                <p>Performance Improvement</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Power BI</span>
+            <span>Excel</span>
+            <span>Statistics</span>
+            <span>Data Cleaning</span>
+            <span>Machine Learning</span>
+        </div>
+    </div>
+
+    <div id="projects">
+        <h2>Featured Projects</h2>
+
+        <div class="project-card">
+            <h3>Sales Performance Dashboard</h3>
+            <p>Developed an interactive Power BI dashboard analyzing sales trends, revenue drivers, and customer segmentation.</p>
+            <a href="#">View Project →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Customer Churn Prediction Model</h3>
+            <p>Built a machine learning classification model in Python achieving high predictive accuracy for churn risk identification.</p>
+            <a href="#">View Project →</a>
+        </div>
+
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: zubinkotecha22@gmail.com</p>
+        <p>LinkedIn: linkedin.com/in/zubin-kotecha-7b8685387</p> 
+        <p>GitHub:https://github.com/zubinkotecha22-ship-it/zubinkotecha22-ship-it.github.iome</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Zubin Kotecha | Data Analyst Portfolio
+</footer>
+
+</body>
+</html>
